@@ -18,4 +18,5 @@ class Another(View):
         return HttpResponse(self.output)
 
 def first(request):
-    return render(request, 'first_temp.html')
+    books = Book.objects.all()
+    return render(request, 'first_temp.html', {'books': books})
