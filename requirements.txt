@@ -1,2 +1,3 @@
-Djago
+Django
 Pillow
+djangorestframework
