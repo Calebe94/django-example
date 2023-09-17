@@ -1,9 +1,44 @@
 #+title: Readme
 
+* Django Example Project
+  :PROPERTIES:
+  :CUSTOM_ID: react-django-full-stack-project
+  :END:
+This project was created as part of the Udemy course titled *React &
+Django Full Stack: Web App, Backend API, Mobile Apps*. The course can be
+accessed at
+[[https://www.udemy.com/share/101J3c3@t5t0ZZXTzqCLfejVh-3w-xEgUa1ByMdPvBAK1hPitnPVDPhkT580OI7cC3YNgc-7/][Udemy
+Course Link]].
 
-* Commands
-+ django-admin startproject demo .
-+ python3 manage.py migrate
-+ django-admin startapp demo
-+ python3 manage.py makemigrations
-+ python manage.py createsuperuser
+** Project Description
+   :PROPERTIES:
+   :CUSTOM_ID: project-description
+   :END:
+This project is a full-stack web application built using Django for the backend.
+It includes a RESTful API offering a comprehensive learning
+experience for building modern web applications.
+
+** Getting Started
+   :PROPERTIES:
+   :CUSTOM_ID: getting-started
+   :END:
+Follow these steps to get started with the project:
+
+1. Clone the project repository to your local machine:
+    ~git clone <repository-url>~
+
+2. Install the dependnecies:
+    ~pip install -r requirements.txt~
+
+3. Run the development server for both the frontend and backend
+   components.
+
+4. Access the application by navigating to the appropriate URL or port
+   number in your web browser.
+
+** Useful Commands
++ ~django-admin startproject demo .~
++ ~python3 manage.py migrate~
++ ~django-admin startapp demo~
++ ~python3 manage.py makemigrations~
++ ~python manage.py createsuperuser~
