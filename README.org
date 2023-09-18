@@ -1,0 +1,9 @@
+#+title: Readme
+
+
+* Commands
++ django-admin startproject demo .
++ python3 manage.py migrate
++ django-admin startapp demo
++ python3 manage.py makemigrations
++ python manage.py createsuperuser
